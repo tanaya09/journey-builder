@@ -1,4 +1,4 @@
-# Journey Builder — Prefill Configuration UI
+# Journey Builder: Prefill Configuration UI
 
 A React + TypeScript app that lets admins configure prefill mappings for a DAG of forms.
 
