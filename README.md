@@ -31,17 +31,20 @@ npm run dev
 ```
 
 ## Project structure
+
+```
 src/
-api/             # fetches and transforms graph data
-components/      # React UI components
-FormList       # left sidebar list of forms
-PrefillPanel   # right panel showing fields + mappings
-PrefillModal   # modal to pick a prefill source
-hooks/           # useGraph — fetches data on load
-lib/
-dag.ts         # DAG traversal (direct + transitive deps)
-dataSources.ts # pluggable data source registry
-types/           # TypeScript types for the graph
+  api/             # fetches and transforms graph data
+  components/      # React UI components
+    FormList       # left sidebar list of forms
+    PrefillPanel   # right panel showing fields + mappings
+    PrefillModal   # modal to pick a prefill source
+  hooks/           # useGraph — fetches data on load
+  lib/
+    dag.ts         # DAG traversal (direct + transitive deps)
+    dataSources.ts # pluggable data source registry
+  types/           # TypeScript types for the graph
+```
 
 ## Architecture — Data Source Registry
 
